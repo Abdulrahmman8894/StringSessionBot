@@ -25,7 +25,7 @@ from telethon.errors import (
 @Client.on_message(filters.private & ~filters.forwarded & filters.command('generate'))
 async def main(_, msg):
     await msg.reply(
-        "Please choose the python library you want to generate string session for",
+        "",
         reply_markup=InlineKeyboardMarkup([[
             InlineKeyboardButton("⚜️¦ كود بـايروجرام", callback_data="pyrogram"),
             InlineKeyboardButton("⚜️¦ كود تيـرمـكـيس", callback_data="telethon")
