@@ -25,7 +25,7 @@ from telethon.errors import (
 @Client.on_message(filters.private & ~filters.forwarded & filters.command('generate'))
 async def main(_, msg):
     await msg.reply(
-        "🔊 ¦ اذا كنـت تـريد تنـصيـب سـورس مـيوزك فـأختـار بـايـروجـرام                                          🕹 ¦ واذا تـريـد تنـصـيب التليثون فـأخـتار تيرمكـس",
+        "⚜️¦ يرجى تحديد نوع الجلسة المراد استخراجها",
         reply_markup=InlineKeyboardMarkup([[
             InlineKeyboardButton("⚜️¦ كود بـايروجرام", callback_data="pyrogram"),
             InlineKeyboardButton("⚜️¦ كود تيـرمـكـيس", callback_data="telethon")
@@ -34,9 +34,9 @@ async def main(_, msg):
 
 
 async def generate_session(bot, msg, telethon=False):
-    await msg.reply("Starting {} Session Generation...".format("Telethon" if telethon else "Pyrogram"))
+    await msg.reply("بدء {} إنشاء الجلسة...".format("Telethon" if telethon else "Pyrogram"))
     user_id = msg.chat.id
-    api_id_msg = await bot.ask(user_id, 'Please send your `API_ID`', filters=filters.text)
+    api_id_msg = await bot.ask(user_id, '- حسنا يرجى ارسال ال `API_ID`', filters=filters.text)
     if await cancelled(api_id_msg):
         return
     try:
