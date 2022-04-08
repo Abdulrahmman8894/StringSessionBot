@@ -74,8 +74,8 @@ async def generate_session(bot, msg, telethon=False):
         if await cancelled(api_id_msg):
             return
     except TimeoutError:
-        في  انتظار   الرسالة . رد ( "تم بلوغ الحد الزمني 10 دقائق. يرجى بدء إنشاء الجلسة مرة أخرى."  ،  reply_markup  =  InlineKeyboardMarkup ( البيانات . create_button ))
-        إرجاع
+        await msg.reply('Time limit reached of 5 minutes. Please start generating session again.', reply_markup=InlineKeyboardMarkup(Data.generate_button))
+        return
     phone_code = phone_code_msg.text.replace(" ", "")
     try:
         if telethon:
