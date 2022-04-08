@@ -25,7 +25,7 @@ from telethon.errors import (
 @Client.on_message(filters.private & ~filters.forwarded & filters.command('generate'))
 async def main(_, msg):
     await msg.reply(
-        "",
+        "🔊 ¦ اذا كنـت تـريد تنـصيـب سـورس مـيوزك فـأختـار بـايـروجـرام                                          🕹 ¦ واذا تـريـد تنـصـيب التليثون فـأخـتار تيرمكـس",
         reply_markup=InlineKeyboardMarkup([[
             InlineKeyboardButton("⚜️¦ كود بـايروجرام", callback_data="pyrogram"),
             InlineKeyboardButton("⚜️¦ كود تيـرمـكـيس", callback_data="telethon")
