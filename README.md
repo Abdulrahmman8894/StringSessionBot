@@ -1,7 +1,7 @@
 # مرحبا بكم في تنصيب بوت استخراج [كـود تيرمكـس وبيروجرام](http://t.me/MR_X_N3_Bot)
 
 > A star ⭐ from you means a lot to us!
-> نجم ⭐ منك يعني الكثير بالنسبة لنا
+          > نجم ⭐ منك يعني الكثير بالنسبة لنا       
 
 <p align="center"><a href="https://github.com/Abdulrahmman8894/StringSessionBot"><img src="https://telegra.ph/file/7ec22c82f580a334dd13e.jpg" width="2000"></a></p>
 
