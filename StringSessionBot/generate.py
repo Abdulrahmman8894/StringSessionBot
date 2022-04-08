@@ -86,7 +86,7 @@ async def generate_session(bot, msg, telethon=False):
         await msg.reply('غير صالح. يرجى بدء إنشاء الجلسة مرة أخرى..', reply_markup=InlineKeyboardMarkup(Data.generate_button))
         return
     except (PhoneCodeExpired, PhoneCodeExpiredError):
-        await msg.reply('OTP reply_markup=InlineKeyboardMarkup(Data.generate_button))
+        await msg.reply('OTP is expired. Please start generating session again.', reply_markup=InlineKeyboardMarkup(Data.generate_button))
         return
     except (SessionPasswordNeeded, SessionPasswordNeededError):
         try:
