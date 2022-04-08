@@ -64,7 +64,4 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             await callback_query.message.reply(ERROR_MESSAGE.format(str(e)))
 
 
-ERROR_MESSAGE = "Oops! An exception occurred! \n\n**Error** : {} " \
-            "\n\nPlease visit @StarkBotsChat if this message doesn't contain any " \
-            "sensitive information and you if want to report this as " \
-            "this error message is not being logged by us!"
+ERROR_MESSAGE = "أُووبس! حدث خطأ! \ n \n ** خطأ **: {} "\" \n \ n يرجى زيارة @MR_X_N_3 إذا كانت هذه الرسالة لا تحتوي على أي معلومات حساسة "\" وإذا كنت تريد الإبلاغ عن هذا كـ "\" رسالة الخطأ هذه لا يتم تسجيل من قبلنا! ""
