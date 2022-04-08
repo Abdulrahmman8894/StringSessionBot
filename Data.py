@@ -6,7 +6,7 @@ class Data:
     START = """
 👋 ¦ مرحبـاً بـك عزيـزي  {}
 ✠━━━━━━━━❖━━━━━━━━━✠
-{} 📮 ¦ في بوت 📬!
+ 📮 ¦ في بوت 📬 {} 
 ━━━━━━━━━━━━━━━━━━━
 🕹 ¦ يعمـل هـذا البـوت لمساعدتـك بطريقـة سهلـه للحصـول على كـود تيرمكـس والبايروجرام تم انشـاء هـذا البـوت بواسطـة : @MR_X_10
 ✠━━━━━━━━❖━━━━━━━━━✠
@@ -15,20 +15,20 @@ class Data:
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("🔥 ⚜️¦ بدأ استخراج الكود 🔥", callback_data="generate")],
+        [InlineKeyboardButton(" ⚜️¦ بدأ استخراج الكود ", callback_data="generate")],
         [InlineKeyboardButton(text="⚜️¦ رجــوع", callback_data="home")]
     ]
 
     generate_button = [
-        [InlineKeyboardButton("🔥 ⚜️¦ بدأ استخراج الكود 🔥", callback_data="generate")]
+        [InlineKeyboardButton(" ⚜️¦ بدأ استخراج الكود ", callback_data="generate")]
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("🔥 ⚜️¦ بدأ استخراج الكود 🔥", callback_data="generate")],
+        [InlineKeyboardButton(" ⚜️¦ بدأ استخراج الكود ", callback_data="generate")],
         [
-            InlineKeyboardButton("¦📬 كيف تستخدمني", callback_data="help"),
-            InlineKeyboardButton("⚜️ ¦ حــول", callback_data="about")
+            InlineKeyboardButton("⚜️¦ كيف تستخدمني", callback_data="help"),
+            InlineKeyboardButton("⚜️¦ حــول", callback_data="about")
         ]
     ]
 
