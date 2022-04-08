@@ -42,9 +42,9 @@ Telegram bot to generate pyrogram and telethon string session.
 
 #### Mandatory Vars
 
-- `API_ID` - Get this from [my.telegram.org](https://my.telegram.org/auth)
-- `API_HASH` - Get this from [my.telegram.org](https://my.telegram.org/auth)
-- `BOT_TOKEN` - Get this from [@BotFather](https://t.me/BotFather)
+- `API_ID` - احصل على هذا من [my.telegram.org](https://my.telegram.org/auth)
+- `API_HASH` - احصل على هذا من [my.telegram.org](https://my.telegram.org/auth)
+- `BOT_TOKEN` - احصل على هذا من [@BotFather](https://t.me/BotFather)
 - `DATABASE_URL` - Will be automatically added by Heroku.
 - `MUST_JOIN` - Username/ID of your telegram channel/group.
 
