@@ -27,8 +27,8 @@ async def main(_, msg):
     await msg.reply(
         "Please choose the python library you want to generate string session for",
         reply_markup=InlineKeyboardMarkup([[
-            InlineKeyboardButton("Pyrogram", callback_data="pyrogram"),
-            InlineKeyboardButton("Telethon", callback_data="telethon")
+            InlineKeyboardButton("⚜️¦ كود بـايروجرام", callback_data="pyrogram"),
+            InlineKeyboardButton("⚜️¦ كود تيـرمـكـيس", callback_data="telethon")
         ]])
     )
 
