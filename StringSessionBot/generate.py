@@ -126,7 +126,7 @@ async def cancelled(msg):
         await msg.reply("Restarted the Bot!", quote=True, reply_markup=InlineKeyboardMarkup(Data.generate_button))
         return True
     elif msg.text.startswith("/"):  # Bot Commands
-        await msg.reply("Cancelled the generation process!", quote=True)
+        await msg.reply("!ألغيت عملية التوليد", quote=True)
         return True
     else:
         return False
