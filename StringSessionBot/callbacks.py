@@ -51,7 +51,7 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
                 InlineKeyboardButton("⚜️ ¦ كود ترمكس", callback_data="telethon")
             ]])
         )
-    elif query in ["⚜️¦ كود بـايروجرام", "⚜️ ¦ كود ترمكس"]:
+    elif query in ["telethon","pyrogram"]:
         await callback_query.answer()
         try:
             if query == "pyrogram":
