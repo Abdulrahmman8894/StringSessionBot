@@ -13,7 +13,7 @@ Telegram bot to generate pyrogram and telethon string session.
 
 ### انشر في Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Abdulrahmman8894/StringSessionBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=)
 
 1. اضغط على الزر أعلاه واملأ "API_ID" و "API_HASH" و "BOT_TOKEN" (و "MUST_JOIN").
 2. ثم انقر على "نشر التطبيق" أسفله. انتظر حتى يكتمل النشر (سيستغرق ذلك دقيقتين تقريبًا). 3.
